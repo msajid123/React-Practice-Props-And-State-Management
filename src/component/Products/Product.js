@@ -37,6 +37,9 @@ export default class Product extends Component {
         {this.state.products.map((val, index) => {
           return (
             <ProductList
+              //   key={`${index}asdfa`}
+              //   key={index + "hello"}
+              key={index}
               title={val.title}
               Desc={val.Desc}
               Price={val.Price}

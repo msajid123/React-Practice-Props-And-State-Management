@@ -5,6 +5,7 @@ import "./App.css";
 import Slide from "./component/NewSlider";
 import ProductList from "./component/Products/ProductList";
 import Product from "./component/Products/Product";
+import Counter from "./component/Counter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Header/> */}
       {/* <Slide /> */}
       <Product />
+      <Counter />
     </div>
   );
 }

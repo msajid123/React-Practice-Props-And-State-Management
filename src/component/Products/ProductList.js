@@ -1,14 +1,8 @@
 import React, { Component } from "react";
 
 export default class ProductList extends Component {
-  //   state = {
-  //     title: "Hello",
-  //     Desc: "Abc...",
-  //     Price: 5000,
-  //     imgUrl: "",
-  //   };
-
   render() {
+    console.log(this.state);
     return (
       <div>
         <h1>{this.props.title}</h1>
